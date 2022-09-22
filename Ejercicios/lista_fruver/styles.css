@@ -1,0 +1,59 @@
+*{  
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(108, 224, 108, 0.463);
+}
+ol{
+    list-style: none;
+    font-family: "roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.4em;
+    font-family: "Dominie",sans-serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    margin-top: 2em;
+    flex-wrap:wrap;
+
+}
+nav > ol {
+    margin: 0 auto;
+}
+nav ol li{
+    
+    font-size: 2.5em;
+} 
+nav ol ol{
+   list-style: circle;
+}
+nav ol ol li a{
+    font-size: .6em;
+}
+
+
+img{
+    height: 150px;
+    width: 200px;
+    box-shadow: 0 2px 20px black;
+}
+figcaption{
+    font-size: 1.5em;
+}
