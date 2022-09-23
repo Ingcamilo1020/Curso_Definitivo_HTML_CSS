@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fprmularios</title>
+<style>
+   
+</style>
+</head>
+<body>
+    <section>
+        <nav>
+        <p>Datos personales</p>
+    <form action="">
+        <label for="Nombre">First name</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="nombre">
+        <br> <br>
+        <label for="apellido">Last name</label>
+        <input type="text" id="apellido" name="apellido" placeholder="apellido">
+        <br> <br>
+        <label for="Fecha">Fecha</label>
+        <input type="date" id="Fecha" name="Fecha" >
+         <br><br>
+        <label for="Horario">Horario</label>
+        <input type="time" id="Horario" name="Horario" >
+        <br><br>
+        <label for="Email">Ingresa tu E-mail </label>
+        <input type="email" name="Email" id="Email" value="Ej:ejemplo@gmail.com">
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset">
+            </nav>
+        </section>
+    </form>
+</section>
+<section>
+    <nav>
+    <p>¿Cual es tu lenguaje favorito ?</p>
+    <form action="">
+        <input type="radio" id="HTML" name="lenguaje" >
+        <label for="HTML">HTML</label>
+        <br><br>
+        <input type="radio" id="CSS" name="lenguaje">
+        <label for="CSS">CSS</label>
+        <br><br>
+        <input type="radio" id="JS" name="lenguaje"> <!-- por name el valor de radio permite seleccionar solo una opcion es decir de las 3 opciones solo me toma una -->
+        <label for="JS">JavaScript</label>
+    </form>
+    </nav>
+</section>
+<section>
+    <nav>
+    <p>Selecciona donde estudiaste :</p>
+    <form action="">
+        <input type="checkbox" name="Escuela" id="Escuela">
+        <label for="Escuela">Escuela</label><br><br><!--  -->
+        <input type="checkbox" id="Universidad" name="Universidad">
+        <label for="Universidad">Universidad</label><br><br>
+        <input type="checkbox" id="Platzi" name="Platzi">
+        <label for="Platzi">Platzi</label> <br> <br>
+        <input type="button" onclick="alert('Hello world')" id="Click" value="Enviar !">
+
+    </form>
+</nav>
+</section>
+<br><br>
+<section>
+    <nav>
+    <input type="color" id="colorFav" name="colorFav">
+    <label for="colorFav">Selecciona tu color favorito</label>
+    <br><br>
+    <input type="image" src="data:image/jpeg;base64,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" alt="volver" id="flecha" width="45" height="45">
+    <br>
+<!-- la imagen se puede usar como un botton que redirecciona a alguna url o seccion  -->
+    <label for="archivo">Seleccione un documento :</label>
+    <input type="file" name="archivo" id="archivo">
+     <br><br>
+
+    <label for="numero">Cantidad de productos</label>     
+    <input type="number" name="numero" id="numero" min="1" max="8">
+    <br><br>
+    <label for="vol"> Volumen</label>
+    <input type="range" name="vol" id="vol" min="10" max="100" step="10" value="50">
+    <br><br>
+    <label for="busqueda">Buscar producto</label>
+    <input type="search" name="busqueda" id="busqueda">
+    <br><br>
+    <label for="telefono">Ingresa tu numero de contacto</label>
+    <input type="tel" name="telefono" id="telefono" placeholder="311-309-447" part="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+</nav>
+</section>
+</body>
+</html>
