@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0%;
+    background-color: #13a4a4;
+   
+}
+.main-nav__item{
+    display: inline-block;
+    
+}
+.main-nav__item a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+
+.main-nav__item a:hover{
+    color:blue; 
+    /* la seudo clase hover nos sirve para estilizar un elemento cuando pasamos el click sobre el  */
+}
+.main-nav__item a:active{
+    color: red ;
+    /* La seudo clase active nos estiliza cuando damos click */
+}
+.main-nav__item a::after{
+    content: " | ";
+    /* el seudo elemento after nos permite agregar algo despues del elemento en este caso despues del a */
+}
