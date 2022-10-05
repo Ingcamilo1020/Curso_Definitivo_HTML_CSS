@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    background-color: red;
+    width: 25vw;
+    height:50vh;
+}
+.main_top{
+    width: 50vw;
+    height: 10rem;
+    align-items: center;
+    
+    color: white;
+    background-color:rgb(20, 20, 92) ;
+}
+.main_buttom{
+    width: 50vw;
+    height: 10rem;
+    margin-top: 23rem;
+   align-items: center;
+   color: white;
+    background-color: rgb(20, 20, 92);
+}
+.main_buttom p{  
+    text-align: center;
+    font-size: 7rem;
+    padding: 10px;
+    
+}
+.main_top p{
+    text-align: center;
+    font-size: 7rem;
+    padding: 10px;
+    
+}
