@@ -13,6 +13,7 @@ body{
 header{
     height: 7vh;
     background-color: #121f3d;
+    border: 2px solid #121932;
 /* background: -webkit-linear-gradient(0deg,#103a51,#1f3441 25%,#1b465e);     */
 }
 main{
@@ -40,6 +41,7 @@ footer{
     width:3.8rem;
     height: 3.8rem;
     border-radius: 20%;
+    cursor: pointer;
     
 }
 p{
@@ -50,6 +52,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     top: 1.5rem;
     left: 6rem;
+    cursor: pointer;
 }
 .search{
     display: inline-block;
@@ -102,6 +105,9 @@ nav{
     text-decoration: none;
     font-weight:bold; 
 }
+.item_nav a:hover{
+    color: #a2a6ae;
+}
 
 .campana{
     color: white;
@@ -109,6 +115,10 @@ nav{
     right: -2rem;
     top: 0.05rem;
     font-size: 1.4rem;
+    cursor: pointer;
+}
+.campana:hover{
+    font-size: 1.6rem;
 }
 .barras{
     color: white;
@@ -116,7 +126,10 @@ nav{
     right: -5rem;
     top: 0.01rem;
     font-size: 1.7rem;
-
+    cursor: pointer;
+}
+.barras:hover{
+    font-size: 1.9rem
 }
 
 aside, section{
@@ -126,19 +139,88 @@ aside, section{
 
 aside{
     width: 20vw;
-    background-color: red;
+    background-color: #121f3d;
 }
 section{
     width: 80vw;
-    background-color: green;
+    background-color: #03091e;
     position: absolute;
     width: 80vw;
     padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+section .live{
+    width: 5rem;
+    height: 3rem;
+    background-color: #ff4842;
+    padding:0.2rem;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    position: absolute;
+    left: 36rem;
+    top: -11.5rem;
+    font-size: 1.5;
+    filter: brightness(120%);
+    
+}
+
+section p{
+    margin: 5rem 40rem;
+}
+section div{
+    
+    margin: 2.5vh;
+    
+    margin: 18rem 4rem ;
+    display: inline-block;
+    
+
+
+}
+section div img{
+    width: 30rem;
+    height: 35rem;
+}
+section div img:hover{
+    filter: brightness(130%);
+}
+
+
+h2 img{
+    width: 25px;
+    height: 25px;
+    border-radius:30%;
+    position: absolute;
+    top: 8.2rem;
+    left: 9.5rem;
+   
+  
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    margin: 3rem 13rem;
+    letter-spacing: .6px;
+}
+aside div img{
+height: 15vh;
+width: 17.5vw;
+border-radius: 5%;
+cursor: pointer;
+
+}
+aside div img:hover{
+    filter:brightness(150%);
+   
+}
+
 aside div{
 height: 15vh;
   margin: 3vh;
-  background-color: crimson;
+  margin-top: 2rem;
+  
 }
 .redes .insta{
     color:white;
@@ -179,7 +261,7 @@ height: 15vh;
 .ul_footer{
     list-style: none;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.2rem;
     right: 5rem;
 
 }

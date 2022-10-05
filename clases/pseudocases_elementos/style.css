@@ -18,7 +18,8 @@
 }
 
 .main-nav__item a:hover{
-    color:blue; 
+    color:blue;
+    font-size: large; 
     /* la seudo clase hover nos sirve para estilizar un elemento cuando pasamos el click sobre el  */
 }
 .main-nav__item a:active{
