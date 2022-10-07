@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* Contenedor */
+.body{
+    position:relative;
+    background-color: #f5ee31;
+    width: 30rem;
+    height: 40rem;
+    margin: 5rem auto;
+    border: 0.5rem solid #000;
+    border-radius: 1.5rem;
+    overflow: hidden; /* todo lo que sobre salga del contenedor no lo muestra */
+       
+}
+/* Ojos */
+.ojos{
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    width: 21rem;
+    z-index: 10;
+    
+}
+.ojo{
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: 0.5rem solid #000;
+    width: 10rem;
+    height: 10rem;
+    margin-right: -1.7rem;
+    border-radius: 50%;
+}
+.ojo_externo{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 2rem;
+    left: 2.4rem;
+    border-radius: 50%;
+    border: 0.3rem solid #000;
+    background-color: #00aaef;
+
+}
+.ojo_interno{
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 1rem;
+    left: 1rem;
+    background-color:  #000;
+    border-radius: 50%;
+}
+.pestanas{
+    position: relative;
+    bottom: 2.8rem;
+    left: 1rem;
+}
+.pestana{
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: #000;
+    margin-right: 1rem;
+    transform: rotate(90deg);
+    
+}
+.pestana.uno{
+    position: relative;
+    top: 1.8rem;
+    transform: rotate(45deg);
+}
+.pestana.dos{
+    position: relative;
+    top:1rem
+}
+.pestana.tres{
+    position: relative;
+    top:1.8rem;
+    transform: rotate(-45deg);
+}
+.nariz{
+    position: absolute;
+    width: 3rem;
+    height: 5rem;
+    background-color: #f5ee31;
+    top: 11rem;
+    left: 12rem;
+    border: .5rem solid #000;
+    z-index: 10;
+    border-bottom: 0.5rem solid transparent;
+    border-radius: 42.5%;
+}
+/* Boca */
+.boca{
+position: absolute;
+    width: 20rem;
+    height: 8rem;
+    top:12rem;
+    left: 5rem;
+    border-radius: 50%;
+    z-index: 10;
+    background-color: transparent;
+    border-bottom: .5rem solid #000;
+
+}
+.dientes{
+    position: relative;
+    top: 7.5rem;
+    left: 6rem;
+}
+.diente{
+    display: inline-block;
+    width: 3rem;
+    height: 3.3rem;
+    background-color: #fff;
+    border-bottom: .4rem solid #000;
+    border-left:.4rem solid #000; 
+    border-right: .4rem solid #000;
+    border-top: 0.3rem solid #000;
+
+}
+.mejilla{
+    position: absolute;
+    width: 3rem;
+    height: 2rem;
+    background-color: transparent;
+    top:3rem;
+    border: 0.3rem solid #f1592a;
+    border-bottom: 0.3rem solid transparent;
+    border-radius: 50% 50% 20% 20%;
+
+}
+.mejilla.uno{
+    left:-1.5rem
+}
+.mejilla.dos{
+    left: 18rem;
+}
+/* camisa */
+.camisa{
+    position: absolute;
+    width: 30rem;
+    height: 5rem;
+    background-color: #fff;
+    bottom: 5rem;
+    border-top: .5rem solid #000;
+    border-bottom: .5rem solid #000;
+    overflow: hidden;
+}
+.cuello{
+    position: absolute;
+    width: 5rem;
+    height: 3rem;
+    top:-2.3rem;
+    background-color: #fff;
+    border: .5rem solid #000;
+    transform: rotate(30deg);
+
+}
+.cuello.uno{
+    left: 6.8rem;
+}
+.cuello.dos{
+    left: 18.5rem;
+    transform: rotate(-30deg);
+}
+.cuello_corbata{
+    position: absolute;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #f00200;
+    border: .5rem solid #000;
+    left: 13rem;
+    bottom: 1.8rem;
+    z-index: 50;
+    transform: rotate(45deg);
+}
+/* cola de corbata */
+.cola_corbata{
+    position: absolute;
+    width: 5.4rem;
+    height: 5.4rem;
+    left: 12.5rem;
+    top: 33rem;
+    transform: rotate(45deg);
+    background-color: #f00200;
+    border: .5rem solid #000;
+    z-index: 50;
+
+}
+
+/* pantalones */
+.pantalones{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background-color: #6a3d13;
+    bottom: 0;
+    border-top: .5rem solid #000;
+    z-index: 10;
+}
+.cinturon{
+    position: absolute;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: #000;
+    top: 1.5rem;
+}
+.cinturon.uno{
+    left: 2rem;
+    
+}
+.cinturon.dos{
+    left: 9rem;
+}
+.cinturon.tres{
+right: 8rem;
+}
+.cinturon.cuatro{
+right: 2rem ;
+}
+
+/* poros */
+
+.poro{
+    position: absolute;
+    background-color: #c0a402;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+.poro.uno{
+    top:23rem;
+    left: 2rem;
+    height: 4rem;
+    width: 4rem;
+}
+.poro.dos{
+    top:20rem;
+    left: 28rem;
+   
+}
+.poro.tres{
+    top:5rem;
+    left: 26rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.poro.cuatro{
+    top:0rem;
+    left: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+/* }
+.derecho{
+    top: 6rem;
+    left: 8rem;
+}
+.izquierdo{
+    top:6rem;
+    left: 7rem
+}
+.azul{
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(56, 180, 241);
+    border-radius: 50%;
+    border: 0.2rem solid black; 
+    
+}
+.derecho_1{
+    top:3.7rem;
+    left: -9.5rem;
+}
+.izquierdo_1{
+    top:3.7rem;
+    left: -6.3rem;
+}
+
+.negro{
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    
+}
+.derecho_2{
+    top:2.5rem;
+    left: -18.5rem;
+}
+.izquierdo_2{
+    top: 2.5rem;
+    left: -13rem;
+}
+.pestana{
+    background-color: black;
+    display: inline-block;
+    position:relative;
+    width: 0.5rem;
+    height: 2rem;
+    
+}
+.uno{
+    top: -4rem;
+    left: -24rem;
+}
+.dos{
+    top:-5.5rem;
+    left: 15rem;
+    transform: rotate(20deg);
+}
+.tres{
+    top:-5.5rem;
+    left: 9.5rem;
+    transform: rotate(-20deg);
+
+}
+.uno_izq{
+    top: -6rem;
+    left: 20.6rem;
+}
+.dos_izq{
+top: -5.7rem;
+left: 17.5rem;
+transform: rotate(-20deg);
+}
+.tres_izq{
+    top: -5.7rem;
+    left: 21.5rem;
+    transform: rotate(20deg);
+    } */
