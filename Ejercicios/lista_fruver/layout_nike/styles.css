@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: #353535;
+}
+.container{
+    width: 28rem;
+    height: 50rem;
+    margin: 10rem auto;
+    
+}
+.card{
+    border-radius: 2.5rem;
+    box-shadow: -1.1rem 1.1rem .1rem   rgba(0,0,0,0.3);
+}
+.card-head{
+    position: relative;
+    height: 25rem;
+    background: #fa782e;
+    background:linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+.card-logo{
+    width: 6rem;
+    margin: 2rem;
+}
+.shoe-img{
+    position: absolute;
+    
+    margin-top: -1.6rem;
+    margin-left: -5rem;
+}
+.product-detal{
+    padding: 0 2rem;
+    color: #fff;
+}
+.product-detal h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.back-text{
+    display: inline-block;
+    font-size: 12.5rem;
+    font-weight: 900;
+    margin-left: -.7rem;
+    margin-top: -1.2rem;
+    opacity: 0.1;
+}
+.card-body{
+    height: 25rem;
+    background-color: #fff;
+    border-radius: 0 0 2.5rem 2.5rem;
+}
+.product-title{
+    padding: 2rem 2rem .5rem 2rem;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.product-title b{
+    font-weight: 600;
+    letter-spacing: 0rem;
+}
+.badge{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 300;
+    color:#fff;
+    background-color: #11e95d;
+    border-radius: .4rem;
+    top: -.2rem;
+    margin-left: .5rem;
+}
+.product-caption{
+        display: block;
+        padding: 0 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    
+}
+.product-rating{
+    padding: 0 4rem;
+    font-size: 1.1rem;
+
+}
+.product-rating i.grey{
+    color: #acacab;
+}
+.product-size h4{
+    font-size: 1.1rem;
+    padding: 0 2.1rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    
+}
+.ul-size{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.ul-size li{
+    list-style: none;
+    margin-right: 2rem;
+}
+.ul-size li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.3rem;
+    color: #000;
+}
+.ul-size li a.active{
+    background-color: #fa782e;
+    color: white;
+}
+.product-color h4{
+    font-size: 1.1rem;
+    padding: 0 2.1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.ul-colors{
+    display: flex;
+    margin-left:2.7rem ;
+}
+.ul-colors li{
+    list-style: none;
+    margin-right: 2rem;
+}
+.ul-colors li a{
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+.ul-colors li a.orange{
+    background-color: #fa782e;
+}
+.ul-colors li a.green{
+    background-color: #11e95b;
+}
+.ul-colors li a.yellow{
+    background-color: #fef604;
+}
+.ul-colors li a.blue{
+    background-color: #0e47d7;
+}
+.ul-colors li a.black{
+    background-color: #000;
+ }
+.ul-colors li a.active:active{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    border: .3rem solid #000 ;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    margin-left: -.7rem;
+    margin-top:-.6rem ;
+} 
+
+.product-price{
+    position: absolute;
+    background-color: #11e95b;
+    padding: .7rem 2rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: #fff;
+    border-radius: .7rem;
+    margin-top:.5rem;
+    margin-left: 12rem;
+    box-shadow: -1rem 2rem 1.5rem -1rem rgba(17,233,91,0) ;
+}
+.product-price b{
+    margin-left: .3rem;
+}
+.ul-colors li a.uno:active{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    border: .3rem solid #000;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    margin-left: -.7rem;
+    margin-top:-.6rem ;
+} 
+
+
